@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://t4.ftcdn.net/jpg/03/05/39/85/240_F_305398544_K7TYYdKDDjuYnIGmkYQqsdtDDkpJ8vpJ.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #text {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 10px;
+  }
+  
+  #game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: rgba(221, 221, 221, 0.8);
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  #controls {
+    border: 1px black solid;
+    padding: 5px;
+  }
+  
+  #stats {
+    border: 1px black solid;
+    color: black;
+    padding: 5px;
+  }
+  
+  #monsterStats {
+    display: none;
+    border: 1px black solid;
+    color: white;
+    padding: 5px;
+    background-color: rgba(255,77,77,0.8);
+  }
+  
+  .stat {
+    padding-right: 10px;
+  }
+  
+  @media (max-width:600px) {
+      #game {
+          max-width:100%;
+      }
+  }
+  
+  
+  
+  
